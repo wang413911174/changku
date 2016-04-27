@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shangp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/adds_tv_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="商品名称"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/adds_ev_pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/adds_tv_pname"
+            android:layout_alignBottom="@+id/adds_tv_pname"
+            android:layout_toRightOf="@+id/adds_tv_pname"
+            android:ems="10"
+            android:hint="商品名称"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/adds_tv_pguige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="@+id/adds_tv_pname"
+            android:layout_below="@+id/adds_tv_pname"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="商品规格"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/adds_ev_pguige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	android:layout_alignBaseline="@+id/adds_tv_pguige"
+            android:layout_alignBottom="@+id/adds_tv_pguige"
+            android:layout_toRightOf="@+id/adds_tv_pguige"
+            android:ems="10"
+            android:hint="商品类型"
+            android:textSize="12sp" >
+            <requestFocus />
+        </EditText>
+
+
+        <TextView
+            android:id="@+id/adds_tv_pcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="@+id/adds_tv_pguige"
+            android:layout_below="@+id/adds_tv_pguige"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="商品单位"
+            android:textSize="12sp" />
+        
+          <EditText
+            android:id="@+id/adds_ev_pcost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          	android:layout_alignBaseline="@+id/adds_tv_pcost"
+            android:layout_alignBottom="@+id/adds_tv_pcost"
+            android:layout_toRightOf="@+id/adds_tv_pcost"
+            android:ems="10"
+            android:hint="商品单位"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/adds_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/adds_tv_pcost"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="doSubmit"
+            android:text="提交"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/adds_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBaseline="@+id/adds_submit"
+            android:layout_alignBottom="@+id/adds_submit"
+            android:layout_toRightOf="@+id/adds_submit"
+            android:layout_marginLeft="20dp"
+            android:onClick="doCancel"
+            android:text="取消"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</ScrollView>

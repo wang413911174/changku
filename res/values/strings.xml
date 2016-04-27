@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="app_name">大仓库</string>
+    <string name="basic_info">基本信息</string>
+    <string name="stock_control">库存管理</string>
+    <string name="info_search">信息查询</string>
+    <string name="user_control">用户管理</string>
+    <string name="about_me">关于我们</string>
+    <string name="select_suppliers">选择供应商</string>
+    <string name="select_product">选择商品</string>
+    <string name="select_customer">选择客户</string>
+    <string name="addproduct">添加产品</string>
+    <string name="findproduct">查看商品</string>
+    <string name="updateproduct">更新商品</string>
+    <string name="delproduct">删除商品</string>
+    <string name="addcustomer">添加客户</string>
+    <string name="findcustomer">查看客户</string>
+    <string name="updatecustomer">更新客户</string>
+    <string name="delcustomer">删除客户</string>
+    <string name="addsupplier">添加供应商</string>
+    <string name="findsupplier">查看供应商</string>
+    <string name="updatesupplier">更新供应商</string>
+    <string name="delsupplier">删除供应商</string>
+    <string name="addinbound">添加入库</string>
+    <string name="findinbound">查看入库</string>
+    <string name="updateinbound">更新入库</string>
+    <string name="delinbound">删除入库</string>
+    <string name="addoutbound">添加出库</string>
+    <string name="findoutbound">查看出库</string>
+    <string name="updateoutbound">更新出库</string>
+    <string name="deloutbound">删除出库</string>
+    <string name="inventoryinfo">库存信息</string>
+    <string name="issave">是否保存账户密码</string>
+    <string name="username">账户</string>
+    <string name="password">密码</string>
+     <string name="phonenum">手机号</string>
+    <string name="validation">手机号验证</string>
+    <string name="login">登陆</string>
+    <string name="register">注册</string>
+    <string name="userinfo">用户信息</string>
+    <string name="updateuserinfo">修改用户</string>
+    
+    
+    
+
+</resources>

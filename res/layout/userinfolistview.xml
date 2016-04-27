@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/userinfo_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="序号"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/userinfo_username"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="用户名称"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/userinfo_password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="密码"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12sp" />
+        <View
+            android:layout_width="2dip"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+        <TextView
+            android:id="@+id/userinfo_telephone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="通讯电话"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="12sp" />
+       
+        
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#ffffff" />
+
+</LinearLayout>
