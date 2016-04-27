@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/message"
+        android:orientation="vertical"
+                    >
+        <Button
+            android:id="@+id/kehuxinxi"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:text="客户信息" />
+
+        <Button
+            android:id="@+id/shangpinxinxi"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/kehuxinxi"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30dp"
+            android:text="商品信息" />
+
+        <Button
+            android:id="@+id/gongyingshangxinxi"
+            android:layout_width="120sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/shangpinxinxi"
+            android:layout_marginLeft="100sp"
+            android:layout_marginTop="30dp"
+            android:text="供应商信息" />
+        <Button
+            android:id="@+id/addshangpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="20sp"
+            android:onClick="onadds"
+            android:text="添加商品"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/updateshangpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/addshangpin"
+            android:onClick="onupdates"
+            android:text="修改商品"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/findshangpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/updateshangpin"
+            android:onClick="onfinds"
+            android:text="查询商品"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/deleteshangpin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/findshangpin"
+            android:onClick="ondeletes"
+            android:text="删除商品"
+            android:visibility="invisible" />
+        
+        <Button
+            android:id="@+id/addkehu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="20sp"
+            android:onClick="onaddk"
+            android:text="添加客户"
+            android:visibility="invisible" />
+        
+        <Button
+            android:id="@+id/findkehu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/addkehu"
+            android:onClick="onfindk"
+            android:text="查询客户"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/addgongyingshang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="20sp"
+            android:onClick="onaddg"
+            android:text="添加供应商"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/findgongyingshang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="20sp"
+            android:layout_below="@+id/addgongyingshang"
+            android:onClick="onfindg"
+            android:text="查询供应商"
+            android:visibility="invisible" />
+    </RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/userinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="80sp"
+        android:onClick="yonghu"
+        android:text="用户管理" />
+
+    <Button
+        android:id="@+id/change_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yonghu"
+        android:layout_marginLeft="180sp"
+        android:layout_marginTop="20dp"
+        android:onClick="mima"
+        android:text="修改密码" />
+
+</LinearLayout>

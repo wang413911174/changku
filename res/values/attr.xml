@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <attr name="icons" format="reference"></attr>
+    <attr name="colors" format="color"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <declare-styleable name="ChangeIconWithOrText">
+        <attr name="icons"></attr>
+        <attr name="colors"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+    </declare-styleable>
+</resources>
